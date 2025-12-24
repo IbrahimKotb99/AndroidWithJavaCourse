@@ -1,4 +1,4 @@
-# Android With Java Course Project
+# Meta Ideas App (Android With Java Course Project)
 
 This repository contains the project I completed as part of my Android development course using Java. It serves as a practical demonstration of various Android components, APIs, and development concepts, including a complete user authentication system powered by Firebase.
 
@@ -11,7 +11,7 @@ This application is a collection of several mini-apps, each designed to explore 
 For easy testing, a pre-built APK file is available. Follow these steps to install it on your Android device:
 
 1.  **Download the APK:**
-    *   Navigate to the **[Releases](https://github.com/YourUsername/AndroidWithJavaCourse/releases)** section of this GitHub repository.
+    *   Navigate to the **[Releases](https://github.com/IbrahimKotb99/MetaIdeasApp/releases)** section of this GitHub repository.
     *   Download the latest `.apk` file (e.g., `app-release.apk`).
 
 2.  **Enable Installation from Unknown Sources:**
