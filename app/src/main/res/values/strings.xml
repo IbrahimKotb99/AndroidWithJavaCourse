@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">YanfaaCourse</string>
+    <string name="app_name">MetaIdeas</string>
     <string name="email_address">Email Address</string>
     <string name="password">Password</string>
     <string name="login">Login</string>
@@ -67,4 +67,5 @@
     <string name="x_o_game">X O GAME</string>
     <string name="title_activity_maps">MapsActivity</string>
     <string name="api">API</string>
+    <string name="login_as_a_guest">Login as a Guest</string>
 </resources>

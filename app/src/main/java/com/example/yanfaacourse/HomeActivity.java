@@ -52,6 +52,14 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     @Override
+    public void onBackPressed() {
+        Intent goToMainActivity = new Intent(HomeActivity.this, MainActivity.class);
+        startActivity(goToMainActivity);
+        super.onBackPressed();
+
+    }
+
+    @Override
     public void onClick(View v) {
         if (v.getId()==R.id.btn_calc){
             Intent goToCalc = new Intent(getApplicationContext(), CalculatorActivity.class);
@@ -84,6 +92,9 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
         }else if (v.getId()==R.id.btn_googleMaps) {
             Intent goToGoogleMaps = new Intent(getApplicationContext(), MapsActivity.class);
             startActivity(goToGoogleMaps);
+        }else if (v.getId()==R.id.btn_fakeAPI) {
+            Intent goToAPI = new Intent(getApplicationContext(), FakeApiActivity.class);
+            startActivity(goToAPI);
         }
     }
 }

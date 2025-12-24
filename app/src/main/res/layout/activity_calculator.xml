@@ -19,6 +19,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:inputType="number"
         android:gravity="center"
         android:hint="@string/enter_first_number" />
 
@@ -26,6 +27,7 @@
         android:id="@+id/etSecondNum"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:inputType="number"
         android:layout_marginTop="20dp"
         android:gravity="center"
         android:hint="@string/enter_second_number" />
@@ -33,6 +35,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:layout_marginTop="30dp"
         android:orientation="horizontal">
 

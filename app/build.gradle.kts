@@ -2,6 +2,7 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.google.android.libraries.mapsplatform.secrets.gradle.plugin)
     alias(libs.plugins.kotlin.android)
+    alias(libs.plugins.google.gms.google.services)
 }
 
 android {
@@ -51,6 +52,9 @@ dependencies {
     implementation(libs.activity)
     implementation(libs.constraintlayout)
     implementation(libs.play.services.maps)
+    //firebase database
+    implementation(libs.firebase.database)
+    implementation(libs.firebase.auth)
     //implementation(libs.core.ktx)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
@@ -68,7 +72,10 @@ dependencies {
     implementation("androidx.media3:media3-ui:1.8.0")
     implementation("androidx.core:core:1.15.0")
     implementation("androidx.core:core-ktx:1.15.0")
-
+    // Retrofit for networking
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+// Gson converter for JSON parsing
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
 
 
 

@@ -51,6 +51,13 @@
         android:layout_gravity="center"
         android:text="@string/login"
         android:layout_marginTop="30dp"/>
+    <Button
+        android:id="@+id/btn_loginWithoutVerifying"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/login_as_a_guest"
+        android:layout_marginTop="30dp"/>
 
     <TextView
         android:id="@+id/tx_forgetPass"
