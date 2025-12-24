@@ -20,15 +20,10 @@ public class PDFViewActivity extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_pdfview);
         pdfViewCV=findViewById(R.id.pdfView);
-        //pdfViewCV.fromAsset("cv.pdf").load();
         Toast.makeText(this, "PDF loading", Toast.LENGTH_SHORT).show();
 
-//        pdfViewCV.fromAsset("test.pdf")
-//                .enableSwipe(true)
-//                .swipeHorizontal(false)
-//                .enableDoubletap(true)
-//                .load();
-        pdfViewCV.fromAsset("cv.pdf")
+
+        pdfViewCV.fromAsset("cvv.pdf")
                 .enableSwipe(true)
                 .enableDoubletap(true)
                 .onError(t ->
